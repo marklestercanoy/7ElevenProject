@@ -1,0 +1,48 @@
+@import "banner";
+@import "nav";
+@import "form";
+@import "footer";
+
+body{
+  margin:0 auto;
+}
+#p1{
+  margin: auto;
+  text-align: center;
+  font: bold 35px 'PT Sans', sans-serif;
+  width: 70%;
+}
+#p2{
+  margin: auto;
+  text-align: center;
+  font: 25px 'PT Sans', sans-serif;
+  width: 70%;
+  padding: 15px 0 50px 0;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  body {
+    background-color: orange;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  body {
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  body {
+    background-color: pink;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  body {
+    background-color: orange;
+  }
+}

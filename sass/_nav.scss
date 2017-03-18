@@ -1,0 +1,27 @@
+nav#navi {
+  border: 2.5px solid #176c49;
+  margin: 10px 10px 10px 115px;
+  width: 85%;
+  text-align: center;
+  padding: 0;
+
+  ul.clear {
+    clear: both;
+    //overflow: auto;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      &:hover {
+        background: url("../img/hover-img.png") no-repeat center bottom;
+      }
+      a {
+        text-decoration: none;
+        color: #176c49;
+        font: 30px 'PT Sans', sans-serif;
+        display: block;
+        padding: 20px 60px;
+      }
+    }
+  }
+}
