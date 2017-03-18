@@ -7,17 +7,17 @@
         },
         messages: {
             email: {
-                required: 'Please enter an email address.',
-                email: 'Please enter a <em>valid</em> email address.',
+                required: 'This field is required.',
+                email: 'Please enter a <em>valid</em> email.',
             }
         }
 });
+ $("#formStyle2").validate();
+
 
 
 
 /*
-
-
 $.validator.setDefaults({
     submitHandler: function() {
         alert("submitted!");

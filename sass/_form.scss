@@ -10,7 +10,25 @@ article{
 }
 section img {
   float: left;
-  margin: -210px 0 0 -190px;
+  margin: -210px 0 0 -130px;
+}
+div#formStyle2 input[type="submit"], div#formStyle2 input[type="button"] {
+  width: 30%;
+  height: 50px;
+  float: right;
+  color: white;
+  margin-right: 28px;
+  background: rgb(239, 43, 47);
+  border-radius: 5px;
+  border-color: transparent;
+}
+div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="button"]:hover{
+  color: white;
+  background: rgb(234, 225, 24);
+  cursor: pointer ;
+}
+#regForm{
+  padding: 10px 10px 59px 0;
 }
 .textarea-field {
   height: 50px;
@@ -48,7 +66,7 @@ section img {
 }
 .select {
   position: relative;
-  display: inline-block;
+  display: block;
 }
 .select select {
   display: inline-block;
@@ -58,15 +76,6 @@ section img {
   border: 0;
   border-radius: 5px;
   background: #e6e6e6;
-}
-.select__arrow {
-  position: absolute;
-  width: 0;
-  height: 20px;
-  pointer-events: none;
-  border-style: solid;
-  border-width: 8px 7px 0 7px;
-  border-color: grey transparent transparent transparent;
 }
 .error {
   text-align: center;
@@ -82,104 +91,90 @@ div#formStyle2{
   border-radius: 5px;
   box-shadow: 0 0 20px 1px;
 }
-div#form-style-2 label .has-error {
+div#formStyle2 label .has-error {
    background-color: #ff2125;
    border: black;
  }
-div#form-style-2 label .has-error span .has-error {
+div#formStyle2 label .has-error span .has-error {
   display: inline-block;
   padding: .2em;
   font-size: .5em;
 }
-div#form-style-2 label.labelDown {
+div#formStyle2 label.labelDown {
   display: block;
   margin: 0px 0px 15px 0px;
 }
-div#form-style-2 label.labelSide {
+div#formStyle2 label.labelSide {
   display: inline;
   margin: 0px 0px 15px 0px;
 }
-div#form-style-2 label.paraSmall {
+div#formStyle2 label.paraSmall {
   margin-left: 50px;
   text-align: left;
   display: block;
   font: 15px 'PT Sans', sans-serif;
 }
-div#form-style-2 label span {
+div#formStyle2 label span {
   width: 150px;
   display: inline-block;
   padding-right: 5px;
   text-align: right;
 }
-div#form-style-2 label span#sp1 {
+div#formStyle2 label span#sp1 {
   width: 110px;
   display: inline-block;
   text-align: right;
 }
-div#form-style-2 label span#sp2 {
-  width: 300px;
+div#formStyle2 label span#sp2 {
+  width:284px;
   display: inline-block;
   text-align: left;
 }
-div#form-style-2 label span#sp3 {
-  width: 110px;
-  display: inline-block;
-  text-align: right;
-}
-div#form-style-2 label span#sp4 {
-  width: 150px;
-  display: inline;
-  text-align: left;
-}
-div#form-style-2 label span#sp4 {
-  width: 150px;
-  display: inline;
-  text-align: left;
-}
-div#form-style-2 label span#arrYear {
+
+div#formStyle2 label span#arrYear {
   width: 0;
   height: 0;
   padding: 0;
   top: 16px;
   right: 32px;
 }
-div#form-style-2 label span#arrMonth {
+div#formStyle2 label span#arrMonth {
   width: 0;
   height: 0;
   padding: 0;
   top: 16px;
   right: 127px;
 }
-div#form-style-2 label span#arrDay {
+div#formStyle2 label span#arrDay {
   width: 0;
   height: 0;
   padding: 0;
   top: 16px;
   right: 223px;
 }
-div#form-style-2 label span#spGender {
+div#formStyle2 label span#spGender {
   width: 150px;
   display: inline-block;
   text-align: right;
 }
-div#form-style-2 label span#control-group {
+div#formStyle2 label span#control-group {
   width: 300px;
   display: inline-block;
   text-align: left;
 }
-div#form-style-2 label input {
+div#formStyle2 label input {
   display: inline;
   margin: 5px 10px;
   width: 60%;
 }
-div#form-style-2 input[type=checkbox] {
-  width: 20%;
+div#formStyle2 input[type=checkbox] {
+  width: 18%;
   height: 20px;
   background-color: #e0e0e0;
   border-color: transparent;
 }
-div#form-style-2 input[type=submit],
-div#form-style-2 input[type=button] {
+div#formStyle2 input[type=submit],
+div#formStyle2 input[type=button] {
   background: #ef2b2f;
   width: 40%;
   height: 50px;
@@ -190,10 +185,11 @@ div#form-style-2 input[type=button] {
   margin-right: 33px;
   border-color: transparent;
 }
-div#form-style-2 input[type=submit]:hover,
-div#form-style-2 input[type=button]:hover {
+div#formStyle2 input[type=submit]:hover,
+div#formStyle2 input[type=button]:hover {
   background: #176c49;
-  color: #fff;
+  color: #ffffff;
+
 }
 .control {
   display: block;

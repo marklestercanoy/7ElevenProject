@@ -1,6 +1,6 @@
 
 $(".has-error").hide();
-$("#submitBtn").click(function (e) {
+$("#submit").click(function (e) {
     e.preventDefault();
 
     $.ajax({
@@ -12,7 +12,7 @@ $("#submitBtn").click(function (e) {
 
             if (data.message) {
                 $("#regForm").slideUp('slow');
-                $("#form-style-2").hide().fadeIn().html('<p class="text-center" >You are successfully registered.</p>');
+                $("#formStyle2").hide().fadeIn().html('<p class="text-center" >You are successfully registered.</p>');
             } else {
 
                 $("#formMessage").empty();
