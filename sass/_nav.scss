@@ -1,14 +1,18 @@
-nav#navi {
-  border: 2.5px solid #176c49;
-  margin: 10px 10px 10px 115px;
-  width: 85%;
+#navCenter{
   text-align: center;
+}
+
+#navi {
+  border: 2.5px solid #176c49;
+  margin: 10px auto;
+  width: 85%;
   padding: 0;
 
-  ul.clear {
+  .clear {
+    text-align: center;
     clear: both;
-    //overflow: auto;
-    margin: 0;
+    overflow: auto;
+    margin: 0 auto;
     padding: 0;
     li {
       display: inline-block;
@@ -20,7 +24,7 @@ nav#navi {
         color: #176c49;
         font: 30px 'PT Sans', sans-serif;
         display: block;
-        padding: 20px 60px;
+        padding: 20px 20px;
       }
     }
   }

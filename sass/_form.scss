@@ -24,11 +24,12 @@ div#formStyle2 input[type="submit"], div#formStyle2 input[type="button"] {
 }
 div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="button"]:hover{
   color: white;
-  background: rgb(234, 225, 24);
+  border: 1px solid #176c49;
+  background: orange;
   cursor: pointer ;
 }
 #regForm{
-  padding: 10px 10px 59px 0;
+  padding: 10px 10px 58px 10px;
 }
 .textarea-field {
   height: 50px;
@@ -152,11 +153,7 @@ div#formStyle2 label span#arrDay {
   top: 16px;
   right: 223px;
 }
-div#formStyle2 label span#spGender {
-  width: 150px;
-  display: inline-block;
-  text-align: right;
-}
+
 div#formStyle2 label span#control-group {
   width: 300px;
   display: inline-block;
@@ -172,6 +169,7 @@ div#formStyle2 input[type=checkbox] {
   height: 20px;
   background-color: #e0e0e0;
   border-color: transparent;
+  cursor: pointer;
 }
 div#formStyle2 input[type=submit],
 div#formStyle2 input[type=button] {
@@ -182,13 +180,17 @@ div#formStyle2 input[type=button] {
   border-radius: 5px;
   font: 25px 'PT Sans', sans-serif;
   color: white;
-  margin-right: 33px;
+  margin-right: 20px;
   border-color: transparent;
 }
 div#formStyle2 input[type=submit]:hover,
 div#formStyle2 input[type=button]:hover {
   background: #176c49;
   color: #ffffff;
+
+}
+#sp2{
+  cursor: pointer;
 
 }
 .control {

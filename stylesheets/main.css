@@ -1,47 +1,53 @@
 /* line 1, ../sass/_banner.scss */
 #banner {
   background-image: url("../img/header_bg.fw.png");
-  margin-top: 3%;
+  margin: 0;
   height: 128px;
 }
 
 /* line 7, ../sass/_banner.scss */
 #logo {
   background-color: white;
-  margin-left: 45%;
+  margin-left: 43.5%;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 /* line 1, ../sass/_nav.scss */
-nav#navi {
-  border: 2.5px solid #176c49;
-  margin: 10px 10px 10px 115px;
-  width: 85%;
+#navCenter {
   text-align: center;
+}
+
+/* line 5, ../sass/_nav.scss */
+#navi {
+  border: 2.5px solid #176c49;
+  margin: 10px auto;
+  width: 85%;
   padding: 0;
 }
-/* line 8, ../sass/_nav.scss */
-nav#navi ul.clear {
+/* line 11, ../sass/_nav.scss */
+#navi .clear {
+  text-align: center;
   clear: both;
-  margin: 0;
+  overflow: auto;
+  margin: 0 auto;
   padding: 0;
 }
-/* line 13, ../sass/_nav.scss */
-nav#navi ul.clear li {
+/* line 17, ../sass/_nav.scss */
+#navi .clear li {
   display: inline-block;
 }
-/* line 15, ../sass/_nav.scss */
-nav#navi ul.clear li:hover {
+/* line 19, ../sass/_nav.scss */
+#navi .clear li:hover {
   background: url("../img/hover-img.png") no-repeat center bottom;
 }
-/* line 18, ../sass/_nav.scss */
-nav#navi ul.clear li a {
+/* line 22, ../sass/_nav.scss */
+#navi .clear li a {
   text-decoration: none;
   color: #176c49;
   font: 30px 'PT Sans', sans-serif;
   display: block;
-  padding: 20px 60px;
+  padding: 20px 20px;
 }
 
 /* line 1, ../sass/_form.scss */
@@ -79,16 +85,17 @@ div#formStyle2 input[type="submit"], div#formStyle2 input[type="button"] {
 /* line 25, ../sass/_form.scss */
 div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="button"]:hover {
   color: white;
-  background: #eae118;
+  border: 1px solid #176c49;
+  background: orange;
   cursor: pointer;
 }
 
-/* line 30, ../sass/_form.scss */
+/* line 31, ../sass/_form.scss */
 #regForm {
-  padding: 10px 10px 59px 0;
+  padding: 10px 10px 58px 10px;
 }
 
-/* line 33, ../sass/_form.scss */
+/* line 34, ../sass/_form.scss */
 .textarea-field {
   height: 50px;
   width: 60%;
@@ -97,7 +104,7 @@ div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="
   font-size: 17px;
 }
 
-/* line 40, ../sass/_form.scss */
+/* line 41, ../sass/_form.scss */
 .textarea-field-month {
   height: 30px;
   width: 23%;
@@ -108,7 +115,7 @@ div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="
   margin: 5px;
 }
 
-/* line 49, ../sass/_form.scss */
+/* line 50, ../sass/_form.scss */
 .textarea-field-day {
   height: 30px;
   width: 16%;
@@ -119,7 +126,7 @@ div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="
   margin: 5px;
 }
 
-/* line 58, ../sass/_form.scss */
+/* line 59, ../sass/_form.scss */
 .textarea-field-year {
   height: 30px;
   width: 16%;
@@ -130,13 +137,13 @@ div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="
   margin: -5px 5px -5px 5px;
 }
 
-/* line 67, ../sass/_form.scss */
+/* line 68, ../sass/_form.scss */
 .select {
   position: relative;
   display: block;
 }
 
-/* line 71, ../sass/_form.scss */
+/* line 72, ../sass/_form.scss */
 .select select {
   display: inline-block;
   cursor: pointer;
@@ -147,13 +154,13 @@ div#formStyle2 form input[type="submit"]:hover, div#formStyle2 form input[type="
   background: #e6e6e6;
 }
 
-/* line 80, ../sass/_form.scss */
+/* line 81, ../sass/_form.scss */
 .error {
   text-align: center;
   color: red;
 }
 
-/* line 85, ../sass/_form.scss */
+/* line 86, ../sass/_form.scss */
 div#formStyle2 {
   font: 20px 'PT Sans', sans-serif;
   margin: auto;
@@ -163,32 +170,32 @@ div#formStyle2 {
   box-shadow: 0 0 20px 1px;
 }
 
-/* line 94, ../sass/_form.scss */
+/* line 95, ../sass/_form.scss */
 div#formStyle2 label .has-error {
   background-color: #ff2125;
   border: black;
 }
 
-/* line 98, ../sass/_form.scss */
+/* line 99, ../sass/_form.scss */
 div#formStyle2 label .has-error span .has-error {
   display: inline-block;
   padding: .2em;
   font-size: .5em;
 }
 
-/* line 103, ../sass/_form.scss */
+/* line 104, ../sass/_form.scss */
 div#formStyle2 label.labelDown {
   display: block;
   margin: 0px 0px 15px 0px;
 }
 
-/* line 107, ../sass/_form.scss */
+/* line 108, ../sass/_form.scss */
 div#formStyle2 label.labelSide {
   display: inline;
   margin: 0px 0px 15px 0px;
 }
 
-/* line 111, ../sass/_form.scss */
+/* line 112, ../sass/_form.scss */
 div#formStyle2 label.paraSmall {
   margin-left: 50px;
   text-align: left;
@@ -196,7 +203,7 @@ div#formStyle2 label.paraSmall {
   font: 15px 'PT Sans', sans-serif;
 }
 
-/* line 117, ../sass/_form.scss */
+/* line 118, ../sass/_form.scss */
 div#formStyle2 label span {
   width: 150px;
   display: inline-block;
@@ -204,21 +211,21 @@ div#formStyle2 label span {
   text-align: right;
 }
 
-/* line 123, ../sass/_form.scss */
+/* line 124, ../sass/_form.scss */
 div#formStyle2 label span#sp1 {
   width: 110px;
   display: inline-block;
   text-align: right;
 }
 
-/* line 128, ../sass/_form.scss */
+/* line 129, ../sass/_form.scss */
 div#formStyle2 label span#sp2 {
   width: 284px;
   display: inline-block;
   text-align: left;
 }
 
-/* line 134, ../sass/_form.scss */
+/* line 135, ../sass/_form.scss */
 div#formStyle2 label span#arrYear {
   width: 0;
   height: 0;
@@ -227,7 +234,7 @@ div#formStyle2 label span#arrYear {
   right: 32px;
 }
 
-/* line 141, ../sass/_form.scss */
+/* line 142, ../sass/_form.scss */
 div#formStyle2 label span#arrMonth {
   width: 0;
   height: 0;
@@ -236,7 +243,7 @@ div#formStyle2 label span#arrMonth {
   right: 127px;
 }
 
-/* line 148, ../sass/_form.scss */
+/* line 149, ../sass/_form.scss */
 div#formStyle2 label span#arrDay {
   width: 0;
   height: 0;
@@ -245,36 +252,30 @@ div#formStyle2 label span#arrDay {
   right: 223px;
 }
 
-/* line 155, ../sass/_form.scss */
-div#formStyle2 label span#spGender {
-  width: 150px;
-  display: inline-block;
-  text-align: right;
-}
-
-/* line 160, ../sass/_form.scss */
+/* line 157, ../sass/_form.scss */
 div#formStyle2 label span#control-group {
   width: 300px;
   display: inline-block;
   text-align: left;
 }
 
-/* line 165, ../sass/_form.scss */
+/* line 162, ../sass/_form.scss */
 div#formStyle2 label input {
   display: inline;
   margin: 5px 10px;
   width: 60%;
 }
 
-/* line 170, ../sass/_form.scss */
+/* line 167, ../sass/_form.scss */
 div#formStyle2 input[type=checkbox] {
   width: 18%;
   height: 20px;
   background-color: #e0e0e0;
   border-color: transparent;
+  cursor: pointer;
 }
 
-/* line 176, ../sass/_form.scss */
+/* line 174, ../sass/_form.scss */
 div#formStyle2 input[type=submit],
 div#formStyle2 input[type=button] {
   background: #ef2b2f;
@@ -284,18 +285,23 @@ div#formStyle2 input[type=button] {
   border-radius: 5px;
   font: 25px 'PT Sans', sans-serif;
   color: white;
-  margin-right: 33px;
+  margin-right: 20px;
   border-color: transparent;
 }
 
-/* line 188, ../sass/_form.scss */
+/* line 186, ../sass/_form.scss */
 div#formStyle2 input[type=submit]:hover,
 div#formStyle2 input[type=button]:hover {
   background: #176c49;
   color: #ffffff;
 }
 
-/* line 194, ../sass/_form.scss */
+/* line 192, ../sass/_form.scss */
+#sp2 {
+  cursor: pointer;
+}
+
+/* line 196, ../sass/_form.scss */
 .control {
   display: block;
   position: relative;
@@ -305,14 +311,14 @@ div#formStyle2 input[type=button]:hover {
   font-size: 18px;
 }
 
-/* line 202, ../sass/_form.scss */
+/* line 204, ../sass/_form.scss */
 .control input {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-/* line 207, ../sass/_form.scss */
+/* line 209, ../sass/_form.scss */
 .control__indicator {
   position: absolute;
   top: 2px;
@@ -322,46 +328,46 @@ div#formStyle2 input[type=button]:hover {
   background: #e6e6e6;
 }
 
-/* line 215, ../sass/_form.scss */
+/* line 217, ../sass/_form.scss */
 .control--radio .control__indicator {
   border-radius: 50%;
 }
 
-/* line 218, ../sass/_form.scss */
+/* line 220, ../sass/_form.scss */
 .control:hover input ~ .control__indicator,
 .control input:focus ~ .control__indicator {
   background: #ccc;
 }
 
-/* line 222, ../sass/_form.scss */
+/* line 224, ../sass/_form.scss */
 .control input:checked ~ .control__indicator {
   background: #e0e0e0;
 }
 
-/* line 225, ../sass/_form.scss */
+/* line 227, ../sass/_form.scss */
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control input:checked:focus ~ .control__indicator {
   background: #e0e0e0;
 }
 
-/* line 229, ../sass/_form.scss */
+/* line 231, ../sass/_form.scss */
 .control__indicator:after {
   content: '';
   position: absolute;
   display: none;
 }
 
-/* line 234, ../sass/_form.scss */
+/* line 236, ../sass/_form.scss */
 .control input:checked ~ .control__indicator:after {
   display: block;
 }
 
-/* line 237, ../sass/_form.scss */
+/* line 239, ../sass/_form.scss */
 .control--checkbox input:disabled ~ .control__indicator:after {
   border-color: #7b7b7b;
 }
 
-/* line 240, ../sass/_form.scss */
+/* line 242, ../sass/_form.scss */
 .control--radio .control__indicator:after {
   left: 6px;
   top: 6px;
@@ -371,7 +377,7 @@ div#formStyle2 input[type=button]:hover {
   background: #176c49;
 }
 
-/* line 248, ../sass/_form.scss */
+/* line 250, ../sass/_form.scss */
 .control--radio input:disabled ~ .control__indicator:after {
   background: #176c49;
 }
@@ -394,7 +400,7 @@ nav {
   font: 33px sans-serif;
   text-align: left;
   color: white;
-  padding: 30px 5% 30px 5%;
+  padding: 30px 3.5%;
 }
 /* line 25, ../sass/_footer.scss */
 nav ul {
@@ -418,17 +424,17 @@ nav ul li.Fcase a.linker:visited {
 }
 /* line 37, ../sass/_footer.scss */
 nav ul li.Fcase a.linker:hover {
-  color: deepskyblue;
-  text-shadow: 4px 4px 20px blue;
+  color: orange;
+  text: orangered;
 }
 /* line 41, ../sass/_footer.scss */
 nav ul li.Fcase a.linker:active {
-  color: deepskyblue;
+  color: orange;
 }
 
 /* line 6, ../sass/main.scss */
 body {
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* line 9, ../sass/main.scss */
@@ -448,27 +454,1267 @@ body {
   padding: 15px 0 50px 0;
 }
 
-@media only screen and (max-width: 500px) {
-  /* line 27, ../sass/main.scss */
+@media only screen and (width: 320px) {
+  /* line 23, ../sass/main.scss */
   body {
-    background-color: orange;
+    background-color: #ffffff;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 29, ../sass/main.scss */
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+
+  /* line 35, ../sass/main.scss */
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+
+  /* line 43, ../sass/main.scss */
+  #banner {
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+
+  /* line 48, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 31%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+
+  /* line 56, ../sass/main.scss */
+  #navi {
+    display: none;
+  }
+
+  /* line 60, ../sass/main.scss */
+  section#sec {
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 65, ../sass/main.scss */
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 6px;
+  }
+
+  /* line 75, ../sass/main.scss */
+  article {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+
+  /* line 84, ../sass/main.scss */
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    width: 288px;
+    padding: 10px 16px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+
+  /* line 92, ../sass/main.scss */
+  #formStyle2 {
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 320px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  /* line 104, ../sass/main.scss */
+  #regForm {
+    display: block;
+    text-align: left;
+    padding: 10px 10px 40px 10px;
+  }
+
+  /* line 110, ../sass/main.scss */
+  div#formStyle2 label span {
+    width: 55px;
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  /* line 117, ../sass/main.scss */
+  div#formStyle2 label span#control-group {
+    width: 152px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 122, ../sass/main.scss */
+  div#formStyle2 input[type=checkbox] {
+    width: 20%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* line 131, ../sass/main.scss */
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+
+  /* line 143, ../sass/main.scss */
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 17px;
+  }
+
+  /* line 150, ../sass/main.scss */
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 155, ../sass/main.scss */
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 160, ../sass/main.scss */
+  div#formStyle2 label span#sp2 {
+    width: 264px;
+    display: inline-block;
+    text-align: right;
+  }
+
+  /* line 165, ../sass/main.scss */
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+
+  /* line 171, ../sass/main.scss */
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  /* line 176, ../sass/main.scss */
+  div#formStyle2 label.labelDown {
+    display: block;
+    margin: 0;
+  }
+
+  /* line 181, ../sass/main.scss */
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 60%;
+  }
+
+  /* line 186, ../sass/main.scss */
+  section img {
+    float: right;
+    margin: -60px -320px;
+    height: 185px;
+    padding: 0;
+  }
+
+  /* line 194, ../sass/main.scss */
+  footer nav {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  /* line 201, ../sass/main.scss */
+  footer nav:hover > ul {
+    display: block;
+  }
+  /* line 204, ../sass/main.scss */
+  footer nav ul {
+    text-align: left;
+    display: none;
+  }
+  /* line 208, ../sass/main.scss */
+  footer nav ul .Fcase {
+    text-align: center;
+    font-size: 18px;
   }
 }
-@media only screen and (max-width: 500px) {
-  /* line 33, ../sass/main.scss */
+@media only screen and (width: 360px) {
+  /* line 220, ../sass/main.scss */
   body {
-    background-color: red;
+    background-color: #ffffff;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 226, ../sass/main.scss */
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+
+  /* line 232, ../sass/main.scss */
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+
+  /* line 240, ../sass/main.scss */
+  #banner {
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+
+  /* line 245, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 31%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+
+  /* line 253, ../sass/main.scss */
+  #navi {
+    display: none;
+  }
+
+  /* line 257, ../sass/main.scss */
+  section#sec {
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 262, ../sass/main.scss */
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 6px;
+  }
+
+  /* line 272, ../sass/main.scss */
+  article {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+
+  /* line 281, ../sass/main.scss */
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 328px;
+    padding: 10px 16px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+
+  /* line 289, ../sass/main.scss */
+  #formStyle2 {
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 360px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  /* line 301, ../sass/main.scss */
+  #regForm {
+    display: block;
+    text-align: left;
+    padding: 10px 10px 40px 10px;
+  }
+
+  /* line 307, ../sass/main.scss */
+  div#formStyle2 label span {
+    width: 66px;
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  /* line 314, ../sass/main.scss */
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 319, ../sass/main.scss */
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* line 328, ../sass/main.scss */
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+
+  /* line 340, ../sass/main.scss */
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 17px;
+  }
+
+  /* line 347, ../sass/main.scss */
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 352, ../sass/main.scss */
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 357, ../sass/main.scss */
+  div#formStyle2 label span#sp2 {
+    width: 258px;
+    display: inline-block;
+    text-align: right;
+  }
+
+  /* line 362, ../sass/main.scss */
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+
+  /* line 368, ../sass/main.scss */
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  /* line 373, ../sass/main.scss */
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 60%;
+  }
+
+  /* line 378, ../sass/main.scss */
+  section img {
+    float: right;
+    margin: -80px -360px;
+    height: 185px;
+    padding: 0;
+  }
+
+  /* line 386, ../sass/main.scss */
+  footer nav {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  /* line 393, ../sass/main.scss */
+  footer nav:hover > ul {
+    display: block;
+  }
+  /* line 396, ../sass/main.scss */
+  footer nav ul {
+    text-align: left;
+    display: none;
+  }
+  /* line 400, ../sass/main.scss */
+  footer nav ul .Fcase {
+    text-align: center;
+    font-size: 18px;
   }
 }
-@media only screen and (max-width: 500px) {
-  /* line 39, ../sass/main.scss */
+@media only screen and (width: 375px) {
+  /* line 410, ../sass/main.scss */
   body {
-    background-color: pink;
+    background-color: #ffffff;
+    max-width: 375px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 416, ../sass/main.scss */
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+
+  /* line 422, ../sass/main.scss */
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+
+  /* line 430, ../sass/main.scss */
+  #banner {
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+
+  /* line 435, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 34%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+
+  /* line 443, ../sass/main.scss */
+  #navi {
+    display: none;
+  }
+
+  /* line 447, ../sass/main.scss */
+  section#sec {
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 452, ../sass/main.scss */
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 6px;
+  }
+
+  /* line 462, ../sass/main.scss */
+  article {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+
+  /* line 471, ../sass/main.scss */
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 375px;
+    padding: 10px 16px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+
+  /* line 479, ../sass/main.scss */
+  #formStyle2 {
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 375px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  /* line 491, ../sass/main.scss */
+  #regForm {
+    display: block;
+    text-align: left;
+    padding: 10px 10px 40px 10px;
+  }
+
+  /* line 497, ../sass/main.scss */
+  div#formStyle2 label span {
+    width: 66px;
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  /* line 504, ../sass/main.scss */
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 509, ../sass/main.scss */
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* line 518, ../sass/main.scss */
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+
+  /* line 530, ../sass/main.scss */
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 17px;
+  }
+
+  /* line 537, ../sass/main.scss */
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 542, ../sass/main.scss */
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 547, ../sass/main.scss */
+  div#formStyle2 label span#sp2 {
+    width: 258px;
+    display: inline-block;
+    text-align: right;
+  }
+
+  /* line 552, ../sass/main.scss */
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+
+  /* line 558, ../sass/main.scss */
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  /* line 563, ../sass/main.scss */
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 60%;
+  }
+
+  /* line 568, ../sass/main.scss */
+  section img {
+    float: right;
+    margin: -80px -375px;
+    height: 185px;
+    padding: 0;
+  }
+
+  /* line 576, ../sass/main.scss */
+  footer nav {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  /* line 583, ../sass/main.scss */
+  footer nav:hover > ul {
+    display: block;
+  }
+  /* line 586, ../sass/main.scss */
+  footer nav ul {
+    text-align: left;
+    display: none;
+  }
+  /* line 590, ../sass/main.scss */
+  footer nav ul .Fcase {
+    text-align: center;
+    font-size: 18px;
   }
 }
-@media only screen and (max-width: 500px) {
-  /* line 45, ../sass/main.scss */
+@media only screen and (width: 412px) {
+  /* line 600, ../sass/main.scss */
   body {
-    background-color: orange;
+    background-color: #ffffff;
+    width: 412px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 606, ../sass/main.scss */
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+
+  /* line 612, ../sass/main.scss */
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+
+  /* line 620, ../sass/main.scss */
+  #banner {
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+
+  /* line 625, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 35%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+
+  /* line 633, ../sass/main.scss */
+  #navi {
+    display: none;
+  }
+
+  /* line 637, ../sass/main.scss */
+  section#sec {
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 642, ../sass/main.scss */
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 2px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 8px;
+  }
+
+  /* line 652, ../sass/main.scss */
+  article {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+
+  /* line 661, ../sass/main.scss */
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 350px;
+    padding: 10px 46px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+
+  /* line 669, ../sass/main.scss */
+  #formStyle2 {
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 412px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  /* line 681, ../sass/main.scss */
+  #regForm {
+    display: block;
+    text-align: left;
+    padding: 10px 10px 40px 10px;
+  }
+
+  /* line 687, ../sass/main.scss */
+  div#formStyle2 label span {
+    width: 66px;
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  /* line 694, ../sass/main.scss */
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 65%;
+  }
+
+  /* line 699, ../sass/main.scss */
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 704, ../sass/main.scss */
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* line 713, ../sass/main.scss */
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+
+  /* line 725, ../sass/main.scss */
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 14px;
+  }
+
+  /* line 732, ../sass/main.scss */
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 737, ../sass/main.scss */
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 742, ../sass/main.scss */
+  div#formStyle2 label span#sp2 {
+    width: 330px;
+    display: inline-block;
+    text-align: right;
+  }
+
+  /* line 747, ../sass/main.scss */
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+
+  /* line 753, ../sass/main.scss */
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin: 0 0 15px 0;
+    font-size: 15px;
+  }
+
+  /* line 760, ../sass/main.scss */
+  section img {
+    float: right;
+    margin: -78px -412px;
+    height: 185px;
+    padding: 0;
+  }
+
+  /* line 768, ../sass/main.scss */
+  footer nav {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  /* line 775, ../sass/main.scss */
+  footer nav:hover > ul {
+    display: block;
+  }
+  /* line 778, ../sass/main.scss */
+  footer nav ul {
+    text-align: left;
+    display: none;
+  }
+  /* line 782, ../sass/main.scss */
+  footer nav ul .Fcase {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 414px) {
+  /* line 792, ../sass/main.scss */
+  body {
+    background-color: #ffffff;
+    width: 414px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 798, ../sass/main.scss */
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+
+  /* line 804, ../sass/main.scss */
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+
+  /* line 812, ../sass/main.scss */
+  #banner {
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+
+  /* line 817, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 35%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+
+  /* line 825, ../sass/main.scss */
+  #navi {
+    display: none;
+  }
+
+  /* line 829, ../sass/main.scss */
+  section#sec {
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 834, ../sass/main.scss */
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 2px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 8px;
+  }
+
+  /* line 844, ../sass/main.scss */
+  article {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+
+  /* line 853, ../sass/main.scss */
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 350px;
+    padding: 10px 46px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+
+  /* line 861, ../sass/main.scss */
+  #formStyle2 {
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 414px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  /* line 873, ../sass/main.scss */
+  #regForm {
+    display: block;
+    text-align: left;
+    padding: 10px 10px 40px 10px;
+  }
+
+  /* line 879, ../sass/main.scss */
+  div#formStyle2 label span {
+    width: 66px;
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  /* line 886, ../sass/main.scss */
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 891, ../sass/main.scss */
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* line 900, ../sass/main.scss */
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+
+  /* line 912, ../sass/main.scss */
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 14px;
+  }
+
+  /* line 919, ../sass/main.scss */
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 924, ../sass/main.scss */
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* line 929, ../sass/main.scss */
+  div#formStyle2 label span#sp2 {
+    width: 330px;
+    display: inline-block;
+    text-align: right;
+  }
+
+  /* line 934, ../sass/main.scss */
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+
+  /* line 940, ../sass/main.scss */
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin: 0 0 15px 0;
+    font-size: 15px;
+  }
+
+  /* line 947, ../sass/main.scss */
+  section img {
+    float: right;
+    margin: -78px -414px;
+    height: 185px;
+    padding: 0;
+  }
+
+  /* line 955, ../sass/main.scss */
+  footer nav {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  /* line 962, ../sass/main.scss */
+  footer nav:hover > ul {
+    display: block;
+  }
+  /* line 965, ../sass/main.scss */
+  footer nav ul {
+    text-align: left;
+    display: none;
+  }
+  /* line 969, ../sass/main.scss */
+  footer nav ul .Fcase {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 768px) {
+  /* line 979, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 41.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 985, ../sass/main.scss */
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 27px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+
+  /* line 991, ../sass/main.scss */
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 19px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 25px 0;
+  }
+
+  /* line 998, ../sass/main.scss */
+  #navi .clear li a {
+    text-decoration: none;
+    color: #176c49;
+    font: 26px 'PT Sans', sans-serif;
+    display: block;
+    padding: 20px 10px;
+  }
+
+  /* line 1014, ../sass/main.scss */
+  .textarea-field-month {
+    height: 30px;
+    width: 17.5%;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  /* line 1018, ../sass/main.scss */
+  .textarea-field-day {
+    height: 30px;
+    width: 17.5%;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  /* line 1021, ../sass/main.scss */
+  .textarea-field-year {
+    height: 30px;
+    width: 17.5%;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  /* line 1025, ../sass/main.scss */
+  footer nav {
+    display: inline-block;
+    font: 22px sans-serif;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+  }
+}
+@media only screen and (width: 1024px) {
+  /* line 1035, ../sass/main.scss */
+  #logo {
+    background-color: white;
+    margin-left: 43.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 1041, ../sass/main.scss */
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 16px;
+  }
+
+  /* line 1051, ../sass/main.scss */
+  nav ul li.Fcase {
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    color: white;
+  }
+
+  /* line 1057, ../sass/main.scss */
+  footer nav {
+    display: inline-block;
+    font: 33px sans-serif;
+    text-align: left;
+    color: white;
+    padding: 30px 2.5%;
   }
 }

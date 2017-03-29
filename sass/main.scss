@@ -4,7 +4,7 @@
 @import "footer";
 
 body{
-  margin:0 auto;
+  margin:0;
 }
 #p1{
   margin: auto;
@@ -19,30 +19,1047 @@ body{
   width: 70%;
   padding: 15px 0 50px 0;
 }
-
-
-
-@media only screen and (max-width: 500px) {
-
+@media only screen and (width: 320px) {
   body {
-    background-color: orange;
+    background-color: #ffffff;
+    width: 320px;
+    margin:0;
+    padding:0;
+  }
+  #p1{
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+  #p2{
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+  //Banner
+  #banner{
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+  #logo{
+    background-color: white;
+    margin-left: 31%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+  //Navigation
+  #navi{
+    display: none;
+  }
+  //Form
+  section#sec{
+    width:0;
+    margin:0;
+    padding:0;
+  }
+  .select select{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 6px;
+  }
+  article{
+    //Registration Form Text
+    display: block;
+    margin-bottom: 15px;
+    margin-left:1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    width: 288px;
+    padding: 10px 16px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+  #formStyle2 {
+
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 320px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+  #regForm{
+    display: block;
+    text-align: left;
+    padding:10px 10px 40px 10px;
+  }
+
+  div#formStyle2 label span{
+    width: 55px;
+    display: inline-block;
+    padding-right:5px;
+    text-align: right;
+    font-size: 15px;
+  }
+  div#formStyle2 label span#control-group {
+    width: 152px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 input[type=checkbox] {
+    width: 20%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 17px;
+  }
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp2 {
+    width:264px;
+    display: inline-block;
+    text-align: right;
+  }
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  div#formStyle2 label.labelDown {
+      display: block;
+      margin: 0;
+    }
+
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 60%;
+  }
+  section img{
+    float: right;
+    margin: -60px -320px;
+    height:185px;
+    padding:0;
+  }
+  //Footer
+  footer {
+    nav {
+      text-align: center;
+      display: block;
+      padding: 10px 10px;
+      text-decoration: underline;
+      font-size: 18px;
+
+      &:hover > ul {
+        display: block;
+      }
+      ul {
+        text-align: left;
+        display: none;
+
+        .Fcase {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
   }
 }
-@media only screen and (max-width: 500px) {
+
+// WIDTH: 360 ----------------------------------------------------------------------------------------------------------
+@media only screen and (width: 360px) {
 
   body {
-    background-color: red;
+    background-color: #ffffff;
+    width: 360px;
+    margin:0;
+    padding:0;
   }
-}
-@media only screen and (max-width: 500px) {
+  #p1{
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+  #p2{
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+  //Banner
+  #banner{
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+  #logo{
+    background-color: white;
+    margin-left: 31%;
+     padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+  //Navigation
+  #navi{
+    display: none;
+  }
+  //Form
+  section#sec{
+    width:0;
+    margin:0;
+    padding:0;
+  }
+  .select select{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 6px;
+  }
+   article{
+    //Registration Form Text
+    display: block;
+    margin-bottom: 15px;
+    margin-left:1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 328px;
+    padding: 10px 16px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+  #formStyle2 {
 
-  body {
-    background-color: pink;
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 360px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
   }
-}
-@media only screen and (max-width: 500px) {
+    #regForm{
+      display: block;
+      text-align: left;
+      padding:10px 10px 40px 10px;
+    }
 
-  body {
-    background-color: orange;
+  div#formStyle2 label span{
+    width: 66px;
+    display: inline-block;
+    padding-right:5px;
+    text-align: right;
+    font-size: 15px;
+  }
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 17px;
+  }
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp2 {
+    width:258px;
+    display: inline-block;
+    text-align: right;
+  }
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 60%;
+  }
+  section img{
+    float: right;
+    margin: -80px -360px;
+    height:185px;
+    padding:0;
+  }
+  //Footer
+  footer {
+    nav {
+      text-align: center;
+      display: block;
+      padding: 10px 10px;
+      text-decoration: underline;
+      font-size: 18px;
+
+      &:hover > ul {
+        display: block;
+      }
+      ul {
+        text-align: left;
+        display: none;
+
+        .Fcase {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
   }
 }
+//IPhone 6 - WIDTH 375 -------------------------------------------------------------------------------------------------
+@media only screen and (width: 375px) {
+  body {
+    background-color: #ffffff;
+    max-width: 375px;
+    margin:0;
+    padding:0;
+  }
+  #p1{
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+  #p2{
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+  //Banner
+  #banner{
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+  #logo{
+    background-color: white;
+    margin-left: 34%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+  //Navigation
+  #navi{
+    display: none;
+  }
+  //Form
+  section#sec{
+    width:0;
+    margin:0;
+    padding:0;
+  }
+  .select select{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 6px;
+  }
+  article{
+    //Registration Form Text
+    display: block;
+    margin-bottom: 15px;
+    margin-left:1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 375px;
+    padding: 10px 16px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+  #formStyle2 {
+
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 375px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+  #regForm{
+    display: block;
+    text-align: left;
+    padding:10px 10px 40px 10px;
+  }
+
+  div#formStyle2 label span{
+    width: 66px;
+    display: inline-block;
+    padding-right:5px;
+    text-align: right;
+    font-size: 15px;
+  }
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 17px;
+  }
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp2 {
+    width:258px;
+    display: inline-block;
+    text-align: right;
+  }
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 60%;
+  }
+  section img{
+    float: right;
+    margin: -80px -375px;
+    height:185px;
+    padding:0;
+  }
+  //Footer
+  footer {
+    nav {
+      text-align: center;
+      display: block;
+      padding: 10px 10px;
+      text-decoration: underline;
+      font-size: 18px;
+
+      &:hover > ul {
+        display: block;
+      }
+      ul {
+        text-align: left;
+        display: none;
+
+        .Fcase {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+// Nexus 5X - 412px --------------------------------------------------------------------------------------
+@media only screen and (width: 412px){
+  body {
+    background-color: #ffffff;
+    width: 412px;
+    margin:0;
+    padding:0;
+  }
+  #p1{
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+  #p2{
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+  //Banner
+  #banner{
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+  #logo{
+    background-color: white;
+    margin-left: 35%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+  //Navigation
+  #navi{
+    display: none;
+  }
+  //Form
+  section#sec{
+    width:0;
+    margin:0;
+    padding:0;
+  }
+  .select select{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 2px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 8px;
+  }
+   article{
+    //Registration Form Text
+    display: block;
+    margin-bottom: 15px;
+    margin-left:1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 350px;
+    padding: 10px 46px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+  #formStyle2 {
+
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 412px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+  #regForm{
+    display: block;
+    text-align: left;
+    padding:10px 10px 40px 10px;
+  }
+
+  div#formStyle2 label span{
+    width: 66px;
+    display: inline-block;
+    padding-right:5px;
+    text-align: right;
+    font-size: 15px;
+  }
+  div#formStyle2 label input {
+    display: inline;
+    margin: 5px 10px;
+    width: 65%;
+  }
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 14px;
+  }
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp2 {
+    width:330px;
+    display: inline-block;
+    text-align: right;
+  }
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin: 0 0 15px 0;
+    font-size: 15px;
+  }
+
+
+  section img{
+    float: right;
+    margin: -78px -412px;
+    height:185px;
+    padding:0;
+  }
+  //Footer
+  footer {
+    nav {
+      text-align: center;
+      display: block;
+      padding: 10px 10px;
+      text-decoration: underline;
+      font-size: 18px;
+
+      &:hover > ul {
+        display: block;
+      }
+      ul {
+        text-align: left;
+        display: none;
+
+        .Fcase {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+// IPhone 6 Plus Width 414----------------------------------------------------------------------------------------------
+@media only screen and (width: 414px){
+  body {
+    background-color: #ffffff;
+    width: 414px;
+    margin:0;
+    padding:0;
+  }
+  #p1{
+    margin: auto;
+    text-align: center;
+    font: bold 20px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+  #p2{
+    margin: auto;
+    text-align: center;
+    font: 15px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 50px 0;
+  }
+  //Banner
+  #banner{
+    background-image: url("../img/header_bg.fw.png");
+    margin: 0 0 10px 0;
+    height: 128px;
+  }
+  #logo{
+    background-color: white;
+    margin-left: 35%;
+    padding: 20px 20px 20px 20px;
+    height: 128px;
+    margin-top: -20px;
+  }
+  //Navigation
+  #navi{
+    display: none;
+  }
+  //Form
+  section#sec{
+    width:0;
+    margin:0;
+    padding:0;
+  }
+  .select select{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 2px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 8px;
+  }
+  article{
+    //Registration Form Text
+    display: block;
+    margin-bottom: 15px;
+    margin-left:1px;
+    font: bold 20px 'PT Sans', sans-serif;
+    color: red;
+    width: 173px;
+  }
+  div#formStyle2 {
+    font: 20px 'PT Sans', sans-serif;
+    margin: auto;
+    max-width: 350px;
+    padding: 10px 46px 0 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px;
+  }
+  #formStyle2 {
+
+    text-align: left;
+    display: block;
+    font: 20px 'PT Sans', sans-serif;
+    margin: 0;
+    max-width: 414px;
+    width: 350px;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+  #regForm{
+    display: block;
+    text-align: left;
+    padding:10px 10px 40px 10px;
+  }
+
+  div#formStyle2 label span{
+    width: 66px;
+    display: inline-block;
+    padding-right:5px;
+    text-align: right;
+    font-size: 15px;
+  }
+  div#formStyle2 label span#control-group {
+    width: 205px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 input[type=checkbox] {
+    width: 10%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
+  div#formStyle2 input[type=submit], div#formStyle2 input[type=button] {
+    background: #ef2b2f;
+    width: 29%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    font: 25px 'PT Sans', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border-color: transparent;
+    font-size: 18px;
+  }
+  .textarea-field {
+    height: 40px;
+    width: 60%;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 14px;
+  }
+  div#formStyle2 label span#spGender {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp1 {
+    width: 110px;
+    display: inline-block;
+    text-align: left;
+  }
+  div#formStyle2 label span#sp2 {
+    width:330px;
+    display: inline-block;
+    text-align: right;
+  }
+  div#formStyle2 label.paraSmall {
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    font: 15px 'PT Sans', sans-serif;
+  }
+  div#formStyle2 label.labelSide {
+    display: inline;
+    margin: 0 0 15px 0;
+    font-size: 15px;
+  }
+
+
+  section img{
+    float: right;
+    margin: -78px -414px;
+    height:185px;
+    padding:0;
+  }
+  //Footer
+  footer {
+    nav {
+      text-align: center;
+      display: block;
+      padding: 10px 10px;
+      text-decoration: underline;
+      font-size: 18px;
+
+      &:hover > ul {
+        display: block;
+      }
+      ul {
+        text-align: left;
+        display: none;
+
+        .Fcase {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+// IPad Width 768 ------------------------------------------------------------------------------------------------------
+@media only screen and (width: 768px){
+  #logo {
+    background-color: white;
+    margin-left: 41.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #p1 {
+    margin: auto;
+    text-align: center;
+    font: bold 27px 'PT Sans', sans-serif;
+    width: 70%;
+  }
+  #p2 {
+    margin: auto;
+    text-align: center;
+    font: 19px 'PT Sans', sans-serif;
+    width: 70%;
+    padding: 15px 0 25px 0;
+  }
+  #navi .clear li a {
+    text-decoration: none;
+    color: #176c49;
+    font: 26px 'PT Sans', sans-serif;
+    display: block;
+    padding: 20px 10px;
+  }
+  @mixin textarea-fields{
+    height: 30px;
+    width: 17.5%;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 5px;
+  }
+  .textarea-field-month {
+    @include textarea-fields;
+  }
+
+  .textarea-field-day {
+    @include textarea-fields;
+  }
+  .textarea-field-year {
+    @include textarea-fields;
+  }
+
+  footer nav{
+    display: inline-block;
+    font: 22px sans-serif;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+  }
+}
+// IPad Pro WIDTH 1024 -------------------------------------------------------------------------------------------------
+@media only screen and (width: 1024px) {
+  #logo {
+    background-color: white;
+    margin-left: 43.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .select select {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    font-size: 16px;
+  }
+  nav ul li.Fcase {
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    color: white;
+  }
+  footer nav{
+      display: inline-block;
+      font: 33px sans-serif;
+      text-align: left;
+      color: white;
+      padding: 30px 2.5%;
+  }
+}
+
